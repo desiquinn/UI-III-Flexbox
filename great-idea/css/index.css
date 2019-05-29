@@ -251,15 +251,37 @@ h1, h2, h3, h4, h5 {
 	width: 880px;
 	height: auto;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	align-content: space-between;
   }
 
   .services-section-two div {
-	background: lightgrey;
+	display: flex;
+	background: #e8e8e8;
 	border: 1px solid black;
-	width: 400px;
-	height: 400px;
+	width: 420px;
+	height: 250px;
 	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 20px 0px;
+	padding: 20px;
+  }
 
+  .services-section-two div h3 {
+	  font-size: 20px;
+  }
+  .services-section-two div p {
+	  font-size: 15px;
+  }
+
+  .services-section-two div a {
+	text-decoration: none;
+	border: 1px solid black;
+	background: white;
+	text-align: center;
+	color: black;
+	height: 40px;
+	width: 150px;
+	padding: 10px 0px;
   }
