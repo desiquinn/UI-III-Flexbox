@@ -65,10 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-h2 {
-	font-family: "Anton", sans-serif;
-  }
-  
+
+
   .static-navbar {
 	/* position: fixed; */
 	top: 0;
@@ -158,6 +156,7 @@ h2 {
   }
   
   .section-one {
+	display: flex;
 	margin-top: 39px;
   }
   
@@ -165,6 +164,7 @@ h2 {
 	width: 430px;
 	height: 100px;
 	display: flex;
+	flex-direction: column;
   }
   
   .section-one div p {
@@ -180,6 +180,7 @@ h2 {
   }
   
   .section-two {
+	display: flex;
 	border-bottom: 1px solid black;
 	margin-top: 36px;
 	padding-bottom: 47px;
@@ -189,6 +190,7 @@ h2 {
 	display: flex;
 	width: 280px;
 	margin-right: 10px;
+	flex-direction: column;
   }
   
   .section-two div p {
