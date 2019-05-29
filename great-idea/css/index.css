@@ -111,7 +111,7 @@ h1, h2, h3, h4, h5 {
   
   .website-wrapper {
 	width: 880px;
-	margin: 130px auto 0 auto;
+	margin: 0px auto 0 auto;
 	z-index: 1;
   }
   
@@ -220,4 +220,46 @@ h1, h2, h3, h4, h5 {
 	margin-top: 54px;
 	font-size: 14px;
   }
-  
+
+  /* Services Pages CSS starts here */
+
+  .secondary-header {
+	height: 200px;
+	margin: 0px 0px 50px 0px;
+  }
+
+  .services-header-img {
+	margin:0px;
+  }
+
+  .services-section-one div h1 {
+	font-size: 30px;
+  }
+
+  .services-section-one div {
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	width: 880px;
+	height: 150px;
+	margin: 0px 0px 50px;
+  }
+
+  .services-section-two{
+	display: flex;
+	border-bottom: 1px solid black;
+	width: 880px;
+	height: auto;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-content: space-between;
+  }
+
+  .services-section-two div {
+	background: lightgrey;
+	border: 1px solid black;
+	width: 400px;
+	height: 400px;
+	flex-wrap: wrap;
+
+  }
