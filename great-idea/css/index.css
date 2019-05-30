@@ -250,9 +250,11 @@ h1, h2, h3, h4, h5 {
 	border-bottom: 1px solid black;
 	width: 880px;
 	height: auto;
+	padding-bottom: 50px;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-content: space-between;
+	margin: 0px 0px 50px 0px;
   }
 
   .services-section-two div {
@@ -278,10 +280,34 @@ h1, h2, h3, h4, h5 {
   .services-section-two div a {
 	text-decoration: none;
 	border: 1px solid black;
+	border-radius: 5%;
 	background: white;
 	text-align: center;
 	color: black;
 	height: 40px;
 	width: 150px;
 	padding: 10px 0px;
+  }
+
+  .services-section-three {
+	  display: flex;
+  }
+
+  .services-section-three div {
+	  display: flex;
+	  flex-direction: column;
+	  padding: 20px;
+  }
+
+  .services-section-three div p {
+	margin-bottom: 30px;
+  }
+
+  .services-section-three div h3 {
+	  font-size: 20px;
+  }
+
+  .services-section-three div ul {
+	  list-style: square outside;
+	  margin-left: 20px;
   }
