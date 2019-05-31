@@ -64,3 +64,250 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+
+  .static-navbar {
+	/* position: fixed; */
+	top: 0;
+	width: 100%;
+	/* background-color: rgb(0, 93, 189); */
+	z-index: 5;
+  }
+  
+  nav {
+	display: flex;
+	width: 880px;
+	height: 100px;
+	margin: 0 auto;
+	position: relative;
+  }
+  
+  nav a {
+	text-decoration: none;
+	color: black;
+	margin: 35px 31px 0 31px;
+	font-size: 14px;
+	display: flex;
+  }
+  
+  nav a:hover {
+	color: rgb(176, 177, 178);
+  }
+  
+  nav a:first-child {
+	margin-left: 0;
+  }
+  
+  nav div {
+	display: flex;
+	position: absolute;
+	right: 0;
+  }
+  
+  img {
+	margin-top: 25px;
+  }
+  
+  .website-wrapper {
+	width: 880px;
+	margin: 0px auto 0 auto;
+	z-index: 1;
+  }
+  
+  header {
+	display: flex;
+	border-bottom: 1px solid black;
+	position: relative;
+	height: 490px;
+  }
+  
+  header div {
+	display: flex;
+	text-align: center;
+	margin: 70px 0 0 85px;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  header div h1 {
+	display: flex;
+	font-size: 80px;
+	margin-bottom: 30px;
+	flex-direction: column;
+	align-items: center;
+  }
+  
+  header div h1 span {
+	display: flex;
+  }
+  
+  header div a {
+	text-decoration: none;
+	color: black;
+	border: 1px solid black;
+	padding: 4px 48px;
+  }
+  
+  header img {
+	display: flex;
+	position: absolute;
+	right: 0;
+  }
+  
+  .section-one {
+	display: flex;
+	margin-top: 39px;
+  }
+  
+  .section-one div {
+	width: 430px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .section-one div p {
+	line-height: 1.16;
+  }
+  
+  .section-one div:first-child {
+	margin-right: 10px;
+  }
+  
+  .middle-img {
+	margin-top: 38px;
+  }
+  
+  .section-two {
+	display: flex;
+	border-bottom: 1px solid black;
+	margin-top: 36px;
+	padding-bottom: 47px;
+  }
+  
+  .section-two div {
+	display: flex;
+	width: 280px;
+	margin-right: 10px;
+	flex-direction: column;
+  }
+  
+  .section-two div p {
+	line-height: 1.16;
+  }
+  
+  address {
+	margin-top: 38px;
+  }
+  
+  address div {
+	line-height: 1.16;
+  }
+  
+  address div span {
+	display: flex;
+	margin: 17px 0 18px 0;
+  }
+  
+  footer {
+	width: 100%;
+	height: 183px;
+	text-align: center;
+  }
+  
+  footer p {
+	margin-top: 54px;
+	font-size: 14px;
+  }
+
+  /* Services Pages CSS starts here */
+
+  .secondary-header {
+	height: 200px;
+	margin: 0px 0px 50px 0px;
+  }
+
+  .services-header-img {
+	margin:0px;
+  }
+
+  .services-section-one div h1 {
+	font-size: 30px;
+  }
+
+  .services-section-one div {
+	border-bottom: 1px solid black;
+	display: flex;
+	flex-direction: column;
+	width: 880px;
+	height: 150px;
+	margin: 0px 0px 50px;
+  }
+
+  .services-section-two{
+	display: flex;
+	border-bottom: 1px solid black;
+	width: 880px;
+	height: auto;
+	padding-bottom: 50px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	margin: 0px 0px 50px 0px;
+  }
+
+  .services-section-two div {
+	display: flex;
+	background: #e8e8e8;
+	border: 1px solid black;
+	width: 420px;
+	height: 250px;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	margin: 20px 0px;
+	padding: 20px;
+  }
+
+  .services-section-two div h3 {
+	  font-size: 20px;
+  }
+  .services-section-two div p {
+	  font-size: 15px;
+  }
+
+  .services-section-two div a {
+	text-decoration: none;
+	border: 1px solid black;
+	border-radius: 5%;
+	background: white;
+	text-align: center;
+	color: black;
+	height: 40px;
+	width: 150px;
+	padding: 10px 0px;
+  }
+
+  .services-section-three {
+	  display: flex;
+  }
+
+  .services-section-three div {
+	  display: flex;
+	  flex-direction: column;
+	  padding: 20px;
+  }
+
+  .services-section-three div p {
+	margin-bottom: 30px;
+  }
+
+  .services-section-three div h3 {
+	  font-size: 20px;
+  }
+
+  .services-section-three div ul {
+	  list-style: square outside;
+	  margin-left: 20px;
+  }
